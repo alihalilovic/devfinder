@@ -51,7 +51,7 @@ const handleSearchClick = async () => {
     ></path>
   </svg>
   <input
-    placeholder="Search any GitHub username..."
+    placeholder="Search GitHub username..."
     class="search-field"
     type="text"
     v-model="searchNameQuery"
@@ -75,8 +75,8 @@ const handleSearchClick = async () => {
   outline: none;
   font-size: 1.3rem;
   border-radius: 20px;
-  padding: 1.25rem 1.5rem;
-  padding-left: 4rem;
+  padding: .8rem 1.5rem;
+  padding-left: 3.5rem;
   box-sizing: border-box;
   color: var(--text-color);
 }
@@ -84,6 +84,7 @@ const handleSearchClick = async () => {
 .search-field::placeholder {
   color: var(--text-color);
   opacity: 0.7;
+  font-size: 1rem;
 }
 
 .icon-misc {
